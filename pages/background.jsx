@@ -11,7 +11,7 @@ import ParagraphSkeleton from "../components/Common/ParagraphSkeleton";
 function Background() {
 
     const { isLoading, error, data } = useQuery('background', () =>
-        axios.get('api/background')
+        axios.get('/api/background')
             .then(({ data }) => data)
             .catch(error => console.error('Error fetching testimonials:', error)))
 
