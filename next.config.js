@@ -15,5 +15,5 @@ module.exports = {
   },
   images: {
     unoptimized: true, // Disable image optimization for static exports
-  },
+  }
 };
