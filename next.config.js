@@ -6,15 +6,14 @@ module.exports = {
   },
   trailingSlash: true, // Ensure that all paths are rendered with trailing slashes
   exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
-    // Customize the paths to be exported if necessary
     return {
       '/': { page: '/' },
       '/background': { page: '/background' },
       '/contact': { page: '/contact' },
       // Add more paths as needed
-    }
+    };
   },
   images: {
     unoptimized: true, // Disable image optimization for static exports
-  }
+  },
 };
