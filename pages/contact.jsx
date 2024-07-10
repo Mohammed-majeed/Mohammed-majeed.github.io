@@ -167,8 +167,9 @@ const Contact = () => {
     );
 }
 
-export default Contact;
 
+export default Contact;
+  
 
 // import { useState } from 'react';
 // import BannerLayout from '../components/Common/BannerLayout';
