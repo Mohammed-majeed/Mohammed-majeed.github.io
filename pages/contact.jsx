@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import BannerLayout from '../components/Common/BannerLayout';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
@@ -293,4 +292,3 @@ export default Contact
 
 // export default Contact;
   
-
