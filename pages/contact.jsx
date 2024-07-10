@@ -50,7 +50,7 @@ const Contact = () => {
                 <div className="my-12 w-full h-auto text-Snow">
                     <h1 className='text-lg font-bold'>Get In Touch</h1>
                     <div className="mt-4 py-8 px-8 bg-EveningBlack rounded-xl text-sm">
-                        <form action="https://formspree.io/f/mgvwverj" method="POST" onSubmit={() => setIsOpen(true)}>
+                        <form action="https://formspree.io/f/movavqrz" method="POST" onSubmit={() => setIsOpen(true)}>
                             <div className="flex flex-col w-full">
                                 <div className="userIcon relative mb-6">
                                     <div id="icon" className="absolute inset-y-0 left-0 flex items-center pl-3 text-xl pointer-events-none">
