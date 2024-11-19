@@ -3,7 +3,7 @@
   "description": "Mohammed Majeed's Portfolio",
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://<your-username>.github.io/<your-repo-name>",
+  "homepage": "https://mohammed-majeed.github.io/Mohammed-majeed.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
