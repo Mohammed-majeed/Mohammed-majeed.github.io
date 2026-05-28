@@ -11,17 +11,17 @@ const background = [
         eduCards: [
             {
                 id: 0,
-                title: 'University of Baghdad, College of Economic Sciences',
-                degree: 'BS, Computer Science',
-                detail: "Bachelor's Degree in Computer Science from University of Baghdad, College of Economic Sciences.",
-                year: '2007-2011'
+                title: 'Vrije Universiteit Amsterdam',
+                degree: "Master of Science in Artificial Intelligence",
+                detail: "Thesis: \"Enabling Intuitive Swarm Control with Natural Language Models\" (Minions) — integrating LLMs with Behavior Trees for natural-language swarm robot control.",
+                year: '2022-2024'
             },
             {
                 id: 1,
-                title: 'Vrije Universiteit Amsterdam',
-                degree: "Master's Degree in Artificial Intelligence",
-                detail: "Master's Degree in Artificial Intelligence from Vrije Universiteit Amsterdam.",
-                year: '2022-2024'
+                title: 'Baghdad College of Economic Sciences University',
+                degree: 'Bachelor of Science in Computer Science',
+                detail: "Bachelor's Degree in Computer Science, Baghdad, Iraq.",
+                year: '2007-2011'
             },
         ]
     },
@@ -29,20 +29,38 @@ const background = [
         expCards: [
             {
                 id: 1,
-                title: 'Enabling Intuitive Swarm Control with Natural Language Models',
-                role: 'Model Developer',
+                title: 'RD New Solution',
+                role: 'Geo-IT Consultant',
                 url: 'no website',
-                desc: 'Developed a novel approach to control swarm robotics through natural language, enhancing the intuitiveness and efficiency of swarm operations.',
-                year: '06/2024',
-                location: 'Amsterdam, The Netherlands'
+                desc: 'Geospatial platform support for enterprise environments including ArcGIS Enterprise, QGIS, FME, and GDAL/OGR. Built automation pipelines for GML/GeoPackage/GeoJSON conversion and ArcGIS publishing. Containerized services with Python, FastAPI, Docker, and Kubernetes. Monitoring with Splunk, Grafana/Loki, and structured JSON logs.',
+                year: '2025 – Present',
+                location: 'The Hague, The Netherlands'
             },
             {
                 id: 2,
-                title: 'Delta NL Lubricants Website',
-                role: 'Website Designer',
+                title: 'Inventors Hub R&D',
+                role: 'Software Developer / AI Engineer',
+                url: 'no website',
+                desc: 'Built LLM-based prototypes for document processing, recruitment matching, and robotics. Developed backend services with Python, FastAPI, Flask, PostgreSQL, and Docker. Deployed Odoo CRM/ERP on an unmanaged VPS. Worked with open-source LLMs, prompt engineering, and agent-style workflows.',
+                year: '2024 – 2025',
+                location: 'The Netherlands'
+            },
+            {
+                id: 3,
+                title: 'Vrije Universiteit Amsterdam',
+                role: 'MSc Thesis Researcher',
+                url: 'no website',
+                desc: '"Minions" — integrated Large Language Models with Behavior Trees to translate natural-language instructions into executable swarm-robot behaviours, making swarm robotics accessible to non-expert users.',
+                year: '2024',
+                location: 'Amsterdam, The Netherlands'
+            },
+            {
+                id: 4,
+                title: 'Delta NL Lubricants',
+                role: 'Web / Graphic Designer',
                 url: 'https://delta-nl.nl',
-                desc: 'Designed and developed a website for Delta NL Lubricants.',
-                year: '2022',
+                desc: 'Designed and developed the company website. Created product labels, marketing materials, and visual assets aligned with brand identity.',
+                year: '2021 – 2023',
                 location: 'Delft, The Netherlands'
             },
         ]

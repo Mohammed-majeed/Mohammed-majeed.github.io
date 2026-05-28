@@ -1,90 +1,77 @@
 export const NAME = 'Mohammed Majeed';
 
-export const DESIGNATION = `artificial intelligence | LLM prompt engineer | Web/Graphic designer`;
+export const DESIGNATION = `Geo-IT Consultant | AI Software Developer | MSc Artificial Intelligence`;
 
 export const DETAILS = {
   Residence: 'The Netherlands',
   City: 'The Hague',
-  Age: '33',
 };
 
 export const SKILLS = [
   {
-    title: 'Artificial intelligence',
+    title: 'Geospatial / GIS',
+    level: '85%',
+  },
+  {
+    title: 'AI & LLM Development',
     level: '80%',
   },
   {
-    title: 'LLM prompt engineer',
+    title: 'Backend & DevOps',
     level: '80%',
   },
-  // {
-  //   title: 'Desktop Application Developer',
-  //   level: '75%',
-  // },
   {
-    title: 'Web/Graphic designer',
-    level: '95%',
+    title: 'Web / Graphic Design',
+    level: '75%',
   },
-  // {
-  //   title: 'Technical Blogger',
-  //   level: '83%',
-  // },
 ];
 
 export const TECH_STACK = [
-  // AI and LLM
+  // GIS & Geospatial
+  'ArcGIS Enterprise',
+  'QGIS',
+  'FME',
+  'GDAL/OGR',
+  'GeoJSON',
+  'GeoPackage',
+  'PostGIS',
+
+  // Backend & Automation
   'Python',
-  'TensorFlow',
-  'PyTorch',
-  'Keras',
-  'scikit-learn',
-  'Hugging Face Transformers',
-  'OpenAI GPT',
-  'Natural Language Processing (NLP)',
-  'Machine Learning',
-  'Deep Learning',
-  'Data Science',
-  'Computer Vision',
-
-  // Graphic Design
-  'Figma',
-  'Adobe XD',
-  'Adobe Illustrator',
-  'Adobe Photoshop',
-  'UI/UX Design',
-  'Prototyping',
-  // 'Wireframing',
-  // 'User Research',
-  'Interaction Design',
-
-  // Web Development
-  'JavaScript',
-  // 'ReactJS',
-  // 'NextJS',
-  // 'TypeScript',
-  // 'NodeJS',
-  // 'Redux',
-  // 'Zustand',
-  'CSS',
-  // 'SCSS',
-  'TailwindCSS',
-  'Ant Design',
-  // 'Material UI',
-  // 'Next UI',
+  'FastAPI',
+  'Flask',
   'REST API',
-  // 'GraphQL',
-  // 'MongoDB',
-  'MySQL',
+  'PostgreSQL',
+
+  // DevOps & Monitoring
+  'Docker',
+  'Kubernetes',
+  'Linux',
+  'Splunk',
+  'Grafana',
   'Git',
   'GitHub',
-  // 'Jira'
 
+  // AI & LLM
+  'OpenAI',
+  'Claude',
+  'LLaMA',
+  'PyTorch',
+  'TensorFlow',
+  'NLP',
+  'Prompt Engineering',
 
+  // Web & Design
+  'React',
+  'JavaScript',
+  'TailwindCSS',
+  'Figma',
+  'Adobe Photoshop',
+  'WordPress',
 ];
 
 export const CONTACTS = {
   EMAIL: 'Mohammed.y.majeed@gmail.com',
-  PHONE: '+31(0)683270496',
 };
 export const SOCIAL_LINKS = {
   GITHUB: 'https://github.com/Mohammed-majeed',

@@ -6,28 +6,33 @@ import ParagraphSkeleton from "../../Common/ParagraphSkeleton";
 const expertise = [
     {
         id: 0,
-        title: 'AI Expert',
-        desc: 'As an AI expert, I specialize in developing and implementing artificial intelligence solutions that enhance business processes. I have a strong background in machine learning, deep learning, and natural language processing, which allows me to create intelligent systems that can learn and adapt to new data.',
+        title: 'Geo-IT & GIS',
+        desc: 'Hands-on experience with ArcGIS Enterprise, ArcGIS Pro, QGIS, FME, and GDAL/OGR. I build and maintain geospatial data pipelines for converting, validating, and publishing spatial formats such as GML, GeoPackage, GeoJSON, KML, and Shapefile to enterprise platforms.',
     },
     {
         id: 1,
-        title: 'LLM Expert',
-        desc: 'As an expert in large language models (LLMs), I excel in creating and fine-tuning models for various applications, including natural language understanding, text generation, and sentiment analysis. My proficiency with LLMs enables me to deliver advanced language-based solutions that meet complex requirements.',
+        title: 'AI & LLM Development',
+        desc: 'Building practical AI applications using OpenAI, Claude, Gemini, and open-source LLMs (LLaMA). Experience with prompt engineering, NLP, intelligent agent workflows, RAG-style pipelines, and integrating LLMs into real-world backend systems.',
     },
     {
         id: 2,
-        title: 'Website Designer',
-        desc: 'I am a skilled website designer with a keen eye for aesthetics and usability. I create visually appealing and user-friendly websites that provide an optimal user experience. My expertise includes responsive design, interactive elements, and the latest web technologies to ensure your website stands out.',
+        title: 'Backend Engineering',
+        desc: 'Developing robust backend services with Python, FastAPI, and Flask. Experienced in REST API design, PostgreSQL, data validation, scheduled automation jobs, and building reliable data-processing pipelines that connect geospatial, AI, and external APIs.',
     },
     {
         id: 3,
-        title: 'Graphic Designer',
-        desc: 'As a graphic designer, I bring creativity and innovation to every project. I am proficient in design software such as Adobe Illustrator, Photoshop, and Figma. My experience in UI/UX design and graphic design allows me to create stunning visuals that effectively communicate your brand message.',
+        title: 'DevOps & Monitoring',
+        desc: 'Containerizing and deploying services with Docker, Docker Compose, and Kubernetes on Linux/VPS environments. Building operational visibility with Splunk dashboards, Grafana/Loki log analysis, structured JSON logging, and Python/PowerShell health checks.',
     },
     {
         id: 4,
-        title: 'Open Source Contributor',
-        desc: "Open Source is the future. I regularly contribute to open-source projects, learning from the best practices of top developers while giving back to the community. This involvement helps me stay current with industry trends and collaborate with developers worldwide.",
+        title: 'Web & Graphic Design',
+        desc: 'Building responsive web applications with React, HTML, CSS, and TailwindCSS. Designing professional visual assets, product labels, and brand materials using Figma, Adobe Photoshop, Adobe Illustrator, and CorelDRAW. CMS experience with WordPress.',
+    },
+    {
+        id: 5,
+        title: 'Research & Innovation',
+        desc: 'MSc thesis on swarm robotics NLP control ("Minions") — combining LLMs with Behavior Trees for natural-language robot commands. Also built AI recruitment matching (EnhanceMatch/Zoho CRM) and deployed Odoo ERP on unmanaged VPS infrastructure.',
     },
 ];
 

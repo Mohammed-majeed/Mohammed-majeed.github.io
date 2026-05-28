@@ -34,10 +34,6 @@ const Contact = () => {
                                 <span className='md:text-base'>Linkedin:</span>
                                 <span className='text-LightGray text-sm'>Mohammed Majeed</span>
                             </div>
-                            <div className="flex justify-between items-center">
-                                <span className='md:text-base'>Phone:</span>
-                                <span className='text-LightGray text-sm'>+31 (0) 683270496</span>
-                            </div>
                         </div>
                     </div>
                 </div>
